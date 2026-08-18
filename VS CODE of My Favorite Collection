@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Favorite Collection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>MY FAVORITE COLLECTION</h1>
+</header>
+
+<!-- FAVORITE PICTURES -->
+<section class="container">
+<h2>📸 Favorite Pictures</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="picture1.jpg" alt="">
+<p>Vigan Adventure</p>
+</div>
+
+<div class="card">
+<img src="picture2.jpg" alt="">
+<p>With Grandma</p>
+</div>
+
+<div class="card">
+<img src="picture3.jpg" alt="">
+<p>Basketball Player</p>
+</div>
+
+<div class="card">
+<img src="picture4.jpg" alt="">
+<p>Graduation Day</p>
+</div>
+
+<div class="card">
+<img src="picture5.jpg" alt="">
+<p>Relaxing Time</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FAVORITE MUSIC -->
+<section class="container">
+
+<h2>Favorite Music</h2>
+
+<div class="music">
+
+<h3>Mundo - IV OF SPADES</h3>
+<iframe src="https://www.youtube.com/embed/omFa4Yk9Fmg"
+allowfullscreen></iframe>
+
+<h3>Palagi - TJ Monterde</h3>
+<iframe src="https://www.youtube.com/embed/908773h7OAM"
+allowfullscreen></iframe>
+
+<h3>Driftstar - Flow G</h3>
+<iframe src="https://www.youtube.com/embed/EawYwGeNZjg"
+allowfullscreen></iframe>
+
+<h3>Blackbird - The Beatles</h3>
+<iframe src="https://www.youtube.com/embed/Man4Xw8Xypo"
+allowfullscreen></iframe>
+
+<h3>Panata - Tothapi</h3>
+<iframe src="https://www.youtube.com/embed/kpF9Vo2zJ6Q"
+allowfullscreen></iframe>
+
+</div>
+
+</section>
+
+<!-- FAVORITE VIDEO CLIPS -->
+<section class="container">
+
+<h2>Favorite Video Clips</h2>
+
+<ul class="videos">
+<li>Basketball Highlights</li>
+<li>Travel Vlogs</li>
+<li>Funny TikTok Videos</li>
+<li>Inspirational Videos</li>
+<li>Music Videos</li>
+</ul>
+
+</section>
+
+<footer>
+Created by: Your Name
+</footer>
+
+</body>
+</html>
+
+--------------------------------------------------
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#eef2f7;
+}
+
+header{
+background:#1f4e79;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+width:90%;
+margin:30px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+h2{
+margin-bottom:20px;
+color:#1f4e79;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+width:200px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+border:3px solid #1f4e79;
+transition:.3s;
+}
+
+.card img:hover{
+transform:scale(1.05);
+}
+
+.music{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:25px;
+}
+
+.music iframe{
+width:350px;
+height:200px;
+border:none;
+border-radius:10px;
+}
+
+.videos{
+font-size:18px;
+line-height:2;
+margin-left:25px;
+}
+
+footer{
+margin-top:30px;
+padding:15px;
+text-align:center;
+background:#1f4e79;
+color:white;
+}
